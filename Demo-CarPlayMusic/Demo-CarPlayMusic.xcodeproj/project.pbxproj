@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A13326F2A8664A800778DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A13326E2A8664A800778DFC /* Assets.xcassets */; };
+		9AAB2DA72A8649C10051A7DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB2DA62A8649C10051A7DE /* AppDelegate.swift */; };
+		9AAB2DA92A8649C10051A7DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB2DA82A8649C10051A7DE /* SceneDelegate.swift */; };
+		9AAB2DAB2A8649C10051A7DE /* MusicRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB2DAA2A8649C10051A7DE /* MusicRootViewController.swift */; };
+		9AAB2DB32A8649C30051A7DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AAB2DB12A8649C30051A7DE /* LaunchScreen.storyboard */; };
+		9AAB2DBC2A8649E40051A7DE /* CarPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAB2DBB2A8649E30051A7DE /* CarPlay.framework */; };
+		9AAB2DC02A864EAC0051A7DE /* SongsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB2DBF2A864EAC0051A7DE /* SongsTableView.swift */; };
+		9AAB2DC22A864F0B0051A7DE /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB2DC12A864F0B0051A7DE /* CarPlaySceneDelegate.swift */; };
+		9AAB2DC52A864F440051A7DE /* CarPlayTemplateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB2DC42A864F440051A7DE /* CarPlayTemplateManager.swift */; };
+		9AAB2DC72A864F750051A7DE /* Cradles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9AAB2DC62A864F750051A7DE /* Cradles.mp3 */; };
+		9AAB2DC92A864FB60051A7DE /* MusicStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB2DC82A864FB60051A7DE /* MusicStructures.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A13326E2A8664A800778DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AAB2DA32A8649C10051A7DE /* Demo-CarPlayMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-CarPlayMusic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAB2DA62A8649C10051A7DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AAB2DA82A8649C10051A7DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AAB2DAA2A8649C10051A7DE /* MusicRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRootViewController.swift; sourceTree = "<group>"; };
+		9AAB2DB22A8649C30051A7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AAB2DB42A8649C30051A7DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AAB2DBB2A8649E30051A7DE /* CarPlay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarPlay.framework; path = System/Library/Frameworks/CarPlay.framework; sourceTree = SDKROOT; };
+		9AAB2DBF2A864EAC0051A7DE /* SongsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsTableView.swift; sourceTree = "<group>"; };
+		9AAB2DC12A864F0B0051A7DE /* CarPlaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
+		9AAB2DC42A864F440051A7DE /* CarPlayTemplateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayTemplateManager.swift; sourceTree = "<group>"; };
+		9AAB2DC62A864F750051A7DE /* Cradles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cradles.mp3; sourceTree = "<group>"; };
+		9AAB2DC82A864FB60051A7DE /* MusicStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicStructures.swift; sourceTree = "<group>"; };
+		9AAB2DD02A8661680051A7DE /* Demo-CarPlayMusic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Demo-CarPlayMusic.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AAB2DA02A8649C10051A7DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAB2DBC2A8649E40051A7DE /* CarPlay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AAB2D9A2A8649C10051A7DE = {
+			isa = PBXGroup;
+			children = (
+				9AAB2DA52A8649C10051A7DE /* Demo-CarPlayMusic */,
+				9AAB2DA42A8649C10051A7DE /* Products */,
+				9AAB2DBA2A8649E30051A7DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AAB2DA42A8649C10051A7DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AAB2DA32A8649C10051A7DE /* Demo-CarPlayMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AAB2DA52A8649C10051A7DE /* Demo-CarPlayMusic */ = {
+			isa = PBXGroup;
+			children = (
+				9AAB2DD02A8661680051A7DE /* Demo-CarPlayMusic.entitlements */,
+				9AAB2DBD2A864AE60051A7DE /* App */,
+				9AAB2DC32A864F100051A7DE /* CarPlay */,
+				9A13326E2A8664A800778DFC /* Assets.xcassets */,
+				9AAB2DCA2A864FC10051A7DE /* Data */,
+				9AAB2DB12A8649C30051A7DE /* LaunchScreen.storyboard */,
+				9AAB2DB42A8649C30051A7DE /* Info.plist */,
+			);
+			path = "Demo-CarPlayMusic";
+			sourceTree = "<group>";
+		};
+		9AAB2DBA2A8649E30051A7DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AAB2DBB2A8649E30051A7DE /* CarPlay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AAB2DBD2A864AE60051A7DE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9AAB2DA62A8649C10051A7DE /* AppDelegate.swift */,
+				9AAB2DA82A8649C10051A7DE /* SceneDelegate.swift */,
+				9AAB2DBE2A864AEF0051A7DE /* ViewController */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9AAB2DBE2A864AEF0051A7DE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9AAB2DAA2A8649C10051A7DE /* MusicRootViewController.swift */,
+				9AAB2DBF2A864EAC0051A7DE /* SongsTableView.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9AAB2DC32A864F100051A7DE /* CarPlay */ = {
+			isa = PBXGroup;
+			children = (
+				9AAB2DC12A864F0B0051A7DE /* CarPlaySceneDelegate.swift */,
+				9AAB2DC42A864F440051A7DE /* CarPlayTemplateManager.swift */,
+			);
+			path = CarPlay;
+			sourceTree = "<group>";
+		};
+		9AAB2DCA2A864FC10051A7DE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9AAB2DC62A864F750051A7DE /* Cradles.mp3 */,
+				9AAB2DC82A864FB60051A7DE /* MusicStructures.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AAB2DA22A8649C10051A7DE /* Demo-CarPlayMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAB2DB72A8649C30051A7DE /* Build configuration list for PBXNativeTarget "Demo-CarPlayMusic" */;
+			buildPhases = (
+				9AAB2D9F2A8649C10051A7DE /* Sources */,
+				9AAB2DA02A8649C10051A7DE /* Frameworks */,
+				9AAB2DA12A8649C10051A7DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo-CarPlayMusic";
+			productName = "Demo-CarPlayMusic";
+			productReference = 9AAB2DA32A8649C10051A7DE /* Demo-CarPlayMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AAB2D9B2A8649C10051A7DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9AAB2DA22A8649C10051A7DE = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 9AAB2D9E2A8649C10051A7DE /* Build configuration list for PBXProject "Demo-CarPlayMusic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AAB2D9A2A8649C10051A7DE;
+			productRefGroup = 9AAB2DA42A8649C10051A7DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AAB2DA22A8649C10051A7DE /* Demo-CarPlayMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AAB2DA12A8649C10051A7DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAB2DB32A8649C30051A7DE /* LaunchScreen.storyboard in Resources */,
+				9AAB2DC72A864F750051A7DE /* Cradles.mp3 in Resources */,
+				9A13326F2A8664A800778DFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AAB2D9F2A8649C10051A7DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAB2DC02A864EAC0051A7DE /* SongsTableView.swift in Sources */,
+				9AAB2DC92A864FB60051A7DE /* MusicStructures.swift in Sources */,
+				9AAB2DAB2A8649C10051A7DE /* MusicRootViewController.swift in Sources */,
+				9AAB2DC52A864F440051A7DE /* CarPlayTemplateManager.swift in Sources */,
+				9AAB2DA72A8649C10051A7DE /* AppDelegate.swift in Sources */,
+				9AAB2DA92A8649C10051A7DE /* SceneDelegate.swift in Sources */,
+				9AAB2DC22A864F0B0051A7DE /* CarPlaySceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AAB2DB12A8649C30051A7DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AAB2DB22A8649C30051A7DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AAB2DB52A8649C30051A7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AAB2DB62A8649C30051A7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AAB2DB82A8649C30051A7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Demo-CarPlayMusic/Demo-CarPlayMusic.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demo-CarPlayMusic/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rsl.Demo-CarPlayMusic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AAB2DB92A8649C30051A7DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Demo-CarPlayMusic/Demo-CarPlayMusic.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Demo-CarPlayMusic/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rsl.Demo-CarPlayMusic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AAB2D9E2A8649C10051A7DE /* Build configuration list for PBXProject "Demo-CarPlayMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAB2DB52A8649C30051A7DE /* Debug */,
+				9AAB2DB62A8649C30051A7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AAB2DB72A8649C30051A7DE /* Build configuration list for PBXNativeTarget "Demo-CarPlayMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAB2DB82A8649C30051A7DE /* Debug */,
+				9AAB2DB92A8649C30051A7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AAB2D9B2A8649C10051A7DE /* Project object */;
+}
